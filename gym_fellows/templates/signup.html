@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Sign up</h3>
+        <form method='POST' action='/'>
+            <input type ='text' name='username' placeholder='Enter the username here'>
+            <br>
+            <br>
+            <input type ='password' name='password'>
+            <br>
+            <br>
+            <input type = 'submit' value = 'Sign up'>            
+        </form>
+
+        <hr>
+        <h3>People</h3>
+        {% for person in people %}
+            <p>{{person.username}}</p>
+        {% endfor %}
+
+        <hr>
+        <a href="{{url_for('login')}}">Login</a>
+    </body>
+</html>
