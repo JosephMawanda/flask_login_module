@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rentpay sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/forms/signin.css" />
+
+  </head>
+  <body>
+  <header >
+        <!--top header section begins-->
+        <div class="top-header">
+        <!--parent company logo(GD experts)-->
+          <a href="#" class="parent-company"> Powered by GDExperts Ltd.</a>
+  
+          <!-- dedicated signin section-->
+          <ul>
+            <li ><a class="header-Manager-signin-link" href="#">Manager Sign In</a></li>
+  
+            <li><a class="header-tenant-signin-link" href="#">Landlord Sign In</a></li>
+          </ul>
+  
+        </div>
+  
+        <!--bottom header section begins-->
+          <div class="header-bottom-section">
+  
+            <img class="logo" src="images/top-logo.png" > 
+            <!-- <h3 ><span class="name">RentPay</span></h3> -->
+  
+            <!--navigation menu begins-->                   
+            <nav>
+            <!--menu icon for mobile devices here -->
+              <a href="#" class="menu-icon"></a>
+           
+              <ul>
+                <li ><a class="current" href="#" color="#2262AD">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul> 
+            </nav>  
+          </div>
+      </header>
+      <!--header section ends here--> 
+        <!-- main content begins -->
+        <div class="modal">
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <h1>RentPay-Create Account </h1>
+            <div class="imgcontainer">    
+              <img src="images/user.png" alt="User" class="user_img">
+            </div>
+    
+            <div class="container2">
+              <label for="username"><b>First Name</b></label>
+              <input type="text" placeholder="Enter your first name" name="username" required>
+    
+              <label for="username"><b>Sur Name</b></label>
+              <input type="text" placeholder="Enter your sur name" name="username" required>
+    
+              <label for="type-of-id"><b>Type of Identity</b></label>
+              <input type="text" placeholder="Enter type of identity" name="type-of-id" required>
+    
+              <label for="id-number"><b>ID Number</b></label>
+              <input type="text" placeholder="Enter ID Number" name="id-number" required>
+    
+              <label for="contact-number"><b>Phone Number</b></label>
+              <input type="text" placeholder="Enter Phone number" name="contact-number" size="10" required>
+    
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter email" name="email" required>
+    
+              <label for="password1"><b>Password</b></label>
+              <input type="password" placeholder="Enter password" name="passsword1" required>
+                 
+              <label for="password2"><b>Confirm Password</b></label>
+              <input type="password" placeholder="Confirm password" name="passsword2" required>
+    
+              <button class="signupbtn"type="submit">Sign Up</button>  
+    
+            </div>                          
+          </form>
+        </div>
+      </body>
+    </html>
+  
